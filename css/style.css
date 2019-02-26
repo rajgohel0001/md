@@ -3,6 +3,9 @@
   border-radius: 10px;
   padding: 5px;
 }
+/*form{
+  margin: auto;
+}*/
 body{
   margin: 0;
 }
@@ -72,19 +75,27 @@ h1 {
 }
 .sec-1{
   background-color: #32468f;
-  height: inherit;
+  height: 72px;
 }
 .list1 li{
   color: white;
   display: inline-block;
 
 }
+
+.mdc-top-app-bar__section--align-end {
+    justify-content: flex-end;
+    order: 1;
+    float: right;
+    margin-top: 40px;
+}
+
 .mdc-list-item {
   display: inline-block;
-}
+}/*
 .mdc-top-app-bar__section{
   display: inline-block;
-}
+}*/
 .currency{
   background-color: lightgray;
   color: black;
@@ -264,6 +275,7 @@ h1 {
   .mdc-button:not(:disabled) {
     /* color: #fff; */
     color: #fff !important;
+        margin-right: 10px;
   }
   .card-title{
 
@@ -443,4 +455,7 @@ div#slider figure {
 #slider{
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.btnd{
+  color: #000;
 }
